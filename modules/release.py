@@ -1,9 +1,11 @@
 """
     COPYRIGHT DISCLAIMER
 
-    Script : PhoneSploit Pro - All in One Android Hacking ADB Toolkit  
+    Script : BlackDroid Pro - All in One Android Hacking ADB Toolkit  
 
     Copyright (C) 2023  Mohd Azeem (github.com/AzeemIdrisi)
+    Copyright (C) 2024  NullX47 (github.com/NullX47)
+    Copyright © 2024 Black Market
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -22,7 +24,6 @@
     original developer, [Mohd Azeem (github.com/AzeemIdrisi)], and copying the code
     is not permitted without permission.
 
-    For any queries, Contact me at : azeemidrisi@protonmail.com
 """
 
 from modules import color
@@ -111,5 +112,7 @@ if run_phonesploit_pro:
         except KeyboardInterrupt:
             exit_phonesploit_pro()
 """
-Copyright © 2023 Mohd Azeem (github.com/AzeemIdrisi)
+Copyright (C) 2023  Mohd Azeem (github.com/AzeemIdrisi)
+Copyright (C) 2024  NullX47 (github.com/NullX47)
+Copyright © 2024 Black Market
 """
