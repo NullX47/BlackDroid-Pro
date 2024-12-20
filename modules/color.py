@@ -5,6 +5,7 @@
 
     Copyright (C) 2023  Mohd Azeem (github.com/AzeemIdrisi)
     Copyright (C) 2024  NullX47 (github.com/NullX47)
+    Copyright © 2024 Black Market
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -38,6 +39,7 @@ WHITE = "\033[97m"
 color_list = [RED, GREEN, ORANGE, YELLOW, BLUE, PURPLE, CYAN, WHITE]
 
 """
-Copyright © 2023 Mohd Azeem (github.com/AzeemIdrisi)
-Copyright © 2024 NullX47 (github.com/NullX47)
+Copyright (C) 2023 Mohd Azeem (github.com/AzeemIdrisi)
+Copyright (C) 2024 NullX47 (github.com/NullX47)
+Copyright © 2024 Black Market
 """
