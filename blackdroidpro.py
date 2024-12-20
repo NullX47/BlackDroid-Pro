@@ -1422,12 +1422,12 @@ def update_me():
     os.system("git fetch")
     print(f"{color.GREEN}\nApplying changes\n{color.WHITE}")
     os.system("git rebase")
-    print(f"{color.CYAN}\nPlease restart PhoneSploit-Pro{color.WHITE}")
+    print(f"{color.CYAN}\nPlease restart BlackDroid-Pro{color.WHITE}")
     exit_phonesploit_pro()
 
 
 def visit_me():
-    os.system(f"{opener} https://github.com/AzeemIdrisi/PhoneSploit-Pro")
+    os.system(f"{opener} https://github.com/NullX47/BlackDroid-Pro")
     print("\n")
 
 
@@ -1764,4 +1764,5 @@ if run_phonesploit_pro:
 
 """
 Copyright © 2023 Mohd Azeem (github.com/AzeemIdrisi)
+Copyright © 2024 NullX47 (github.com/NullX47)
 """
