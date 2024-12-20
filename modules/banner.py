@@ -1,9 +1,11 @@
 """
     COPYRIGHT DISCLAIMER
 
-    Script : PhoneSploit Pro - All in One Android Hacking ADB Toolkit  
+    Script : BlackDroid Pro - All in One Android Hacking ADB Toolkit  
 
     Copyright (C) 2023  Mohd Azeem (github.com/AzeemIdrisi)
+    Copyright (C) 2024  NullX47 (github.com/NullX47)
+    Copyright © 2024 Black Market
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -22,12 +24,11 @@
     original developer, [Mohd Azeem (github.com/AzeemIdrisi)], and copying the code
     is not permitted without permission.
 
-    For any queries, Contact me at : azeemidrisi@protonmail.com
 """
 
 from modules import color
 
-version = "v1.61"
+version = "V2.0"
 
 menu1 = f"""
 
@@ -58,8 +59,8 @@ menu3 = f"""
     {color.WHITE}31. {color.GREEN}Unlock Device               {color.WHITE}36. {color.GREEN}Extract APK from Installed App      {color.WHITE}41. {color.GREEN}Record Mic Audio
     {color.WHITE}32. {color.GREEN}Lock Device                 {color.WHITE}37. {color.GREEN}Stop ADB Server                     {color.WHITE}42. {color.GREEN}Listen Device Audio
     {color.WHITE}33. {color.GREEN}Dump All SMS                {color.WHITE}38. {color.GREEN}Power Off Device                    {color.WHITE}43. {color.GREEN}Record Device Audio
-    {color.WHITE}34. {color.GREEN}Dump All Contacts           {color.WHITE}39. {color.GREEN}Use Keycodes (Control Device)       {color.WHITE}44. {color.GREEN}Update PhoneSploit-Pro
-    {color.WHITE}35. {color.GREEN}Dump Call Logs              {color.WHITE}40. {color.GREEN}Listen Mic Audio                    {color.WHITE}45. {color.GREEN}Visit PhoneSploit-Pro on GitHub
+    {color.WHITE}34. {color.GREEN}Dump All Contacts           {color.WHITE}39. {color.GREEN}Use Keycodes (Control Device)       {color.WHITE}44. {color.GREEN}Update BlackDroid-Pro
+    {color.WHITE}35. {color.GREEN}Dump Call Logs              {color.WHITE}40. {color.GREEN}Listen Mic Audio                    {color.WHITE}45. {color.GREEN}Visit Black Market on Telegram
 
 
    {color.YELLOW} 
@@ -87,98 +88,146 @@ Use 'Ctrl + C' to stop at any point
 
     {color.GREEN}msf6 > {color.YELLOW}exit -y       {color.WHITE}
      
-{color.RED}[PhoneSploit Pro]   {color.WHITE}Press 'Enter' to continue attack / '0' to Go Back to Main Menu
+{color.RED}[BlackDroid Pro]   {color.WHITE}Press 'Enter' to continue attack / '0' to Go Back to Main Menu
     """
 
 banner2 = f"""
 
-        ░█▀▀█ █──█ █▀▀█ █▀▀▄ █▀▀ ░█▀▀▀█ █▀▀█ █── █▀▀█ ─▀─ ▀▀█▀▀ 　 ░█▀▀█ █▀▀█ █▀▀█ 
-        ░█▄▄█ █▀▀█ █──█ █──█ █▀▀ ─▀▀▀▄▄ █──█ █── █──█ ▀█▀ ──█── 　 ░█▄▄█ █▄▄▀ █──█ 
-        ░█─── ▀──▀ ▀▀▀▀ ▀──▀ ▀▀▀ ░█▄▄▄█ █▀▀▀ ▀▀▀ ▀▀▀▀ ▀▀▀ ──▀── 　 ░█─── ▀─▀▀ ▀▀▀▀
-
-
-            {color.RED}{version}{color.WHITE}            {color.WHITE}By github.com/AzeemIdrisi
+@@@@@@@  @@@       @@@@@@   @@@@@@@ @@@  @@@ @@@@@@@  @@@@@@@   @@@@@@  @@@ @@@@@@@     @@@@@@@  @@@@@@@   @@@@@@  
+@@!  @@@ @@!      @@!  @@@ !@@      @@!  !@@ @@!  @@@ @@!  @@@ @@!  @@@ @@! @@!  @@@    @@!  @@@ @@!  @@@ @@!  @@@ 
+@!@!@!@  @!!      @!@!@!@! !@!      @!@@!@!  @!@  !@! @!@!!@!  @!@  !@! !!@ @!@  !@!    @!@@!@!  @!@!!@!  @!@  !@! 
+!!:  !!! !!:      !!:  !!! :!!      !!: :!!  !!:  !!! !!: :!!  !!:  !!! !!: !!:  !!!    !!:      !!: :!!  !!:  !!! 
+:: : ::  : ::.: :  :   : :  :: :: :  :   ::: :: :  :   :   : :  : :. :  :   :: :  :      :        :   : :  : :. :  
+                                                                                                                   
+                                                                                                                   
+                         @@@@@@ @@@@@@@  @@@ @@@ @@@  @@@  @@@  @@@@@@  @@@@@@@  @@@@@@@@                          
+                        !@@     @@!  @@@ @@! !@@ @@!  @@!  @@! @@!  @@@ @@!  @@@ @@!                               
+                         !@@!!  @!@@!@!   !@!@!  @!!  !!@  @!@ @!@!@!@! @!@!!@!  @!!!:!                            
+                            !:! !!:        !!:    !:  !!:  !!  !!:  !!! !!: :!!  !!:                               
+                        ::.: :   :         .:      ::.:  :::    :   : :  :   : : : :: ::                                                                                                                                                                                                  
+                                                                                                         
+                         {color.WHITE}{version}{color.WHITE}          {color.WHITE}Powered by Black Market Ⓡ
 """
 
 banner3 = f"""
 
-        █▀█ █░█ █▀█ █▄░█ █▀▀ █▀ █▀█ █░░ █▀█ █ ▀█▀   █▀█ █▀█ █▀█
-        █▀▀ █▀█ █▄█ █░▀█ ██▄ ▄█ █▀▀ █▄▄ █▄█ █ ░█░   █▀▀ █▀▄ █▄█ 
-
-
-            {color.RED}{version}{color.WHITE}             {color.WHITE}By github.com/AzeemIdrisi
+    dBBBBb   dBP dBBBBBb     dBBBP  dBP dBP dBBBBb dBBBBBb    dBBBBP dBP dBBBBb     dBBBBBb dBBBBBb    dBBBBP
+       dBP            BB           d8P.dBP     dB'     dBP   dBP.BP         dBP         dB'     dBP   dBP.BP 
+   dBBBK'  dBP    dBP BB   dBP    dBBBBP  dBP dB'  dBBBBK   dBP.BP dBP dBP dBP      dBBBP'  dBBBBK   dBP.BP  
+  dB' db  dBP    dBP  BB  dBP    dBP BB  dBP dB'  dBP  BB  dBP.BP dBP dBP dBP      dBP     dBP  BB  dBP.BP   
+ dBBBBP' dBBBBP dBBBBBBB dBBBBP dBP dBP dBBBBB'  dBP  dB' dBBBBP dBP dBBBBBP      dBP     dBP  dB' dBBBBP    
+                                                                                                             
+                       .dBBBBP dBBBBBb dBP dBP dBPdBPdBP dBBBBBb   dBBBBBb    dBBBP                          
+                       BP          dB'    dBP                 BB       dBP                                   
+                       `BBBBb  dBBBP'    dBP dBPdBPdBP    dBP BB   dBBBBK   dBBP                             
+                          dBP dBP       dBP dBPdBPdBP    dBP  BB  dBP  BB  dBP                               
+                     dBBBBP' dBP       dBP dBBBBBBBP    dBBBBBBB dBP  dB' dBBBBP                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                         {color.WHITE}{version}{color.WHITE}          {color.WHITE}Powered by Black Market Ⓡ
 """
 
 banner4 = f"""
-    _________.__                           _________      .__         .__  __    __________                 
-    \______  \\  |__   ____   ____   ____  /   _____/_____ |  |   ____ |__|/  |_  \______   \_______  ____   
-    |     ___/  |  \ /  _ \ /    \_/ __ \ \_____  \\\____ \|  |  /  _ \|  \   __\  |     ___/\_  __ \/  _ \  
-    |    |   |   Y  (  <_> )   |  \  ___/ /        \  |_> >  |_(  <_> )  ||  |    |    |     |  | \(  <_> ) 
-    |____|   |___|  /\____/|___|  /\___  >_______  /   __/|____/\____/|__||__|    |____|     |__|   \____/
-                  \/            \/     \/        \/|__|                                                      
 
-
-        {color.RED}{version}{color.WHITE}                             {color.WHITE}By github.com/AzeemIdrisi
+@@@@@@@  @@@       @@@@@@   @@@@@@@ @@@  @@@ @@@@@@@  @@@@@@@   @@@@@@  @@@ @@@@@@@     @@@@@@@  @@@@@@@   @@@@@@  
+@@!  @@@ @@!      @@!  @@@ !@@      @@!  !@@ @@!  @@@ @@!  @@@ @@!  @@@ @@! @@!  @@@    @@!  @@@ @@!  @@@ @@!  @@@ 
+@!@!@!@  @!!      @!@!@!@! !@!      @!@@!@!  @!@  !@! @!@!!@!  @!@  !@! !!@ @!@  !@!    @!@@!@!  @!@!!@!  @!@  !@! 
+!!:  !!! !!:      !!:  !!! :!!      !!: :!!  !!:  !!! !!: :!!  !!:  !!! !!: !!:  !!!    !!:      !!: :!!  !!:  !!! 
+:: : ::  : ::.: :  :   : :  :: :: :  :   ::: :: :  :   :   : :  : :. :  :   :: :  :      :        :   : :  : :. :  
+                                                                                                                   
+                                                                                                                   
+                         @@@@@@ @@@@@@@  @@@ @@@ @@@  @@@  @@@  @@@@@@  @@@@@@@  @@@@@@@@                          
+                        !@@     @@!  @@@ @@! !@@ @@!  @@!  @@! @@!  @@@ @@!  @@@ @@!                               
+                         !@@!!  @!@@!@!   !@!@!  @!!  !!@  @!@ @!@!@!@! @!@!!@!  @!!!:!                            
+                            !:! !!:        !!:    !:  !!:  !!  !!:  !!! !!: :!!  !!:                               
+                        ::.: :   :         .:      ::.:  :::    :   : :  :   : : : :: ::                           
+                                                                                                         
+                         {color.WHITE}{version}{color.WHITE}          {color.WHITE}Powered by Black Market Ⓡ
 """
 banner5 = f"""
-       ___  __                 ____     __     _ __     ___         
-      / _ \/ /  ___  ___  ___ / __/__  / /__  (_) /_   / _ \_______ 
-     / ___/ _ \/ _ \/ _ \/ -_)\ \/ _ \/ / _ \/ / __/  / ___/ __/ _ \\
-    /_/  /_//_/\___/_//_/\__/___/ .__/_/\___/_/\__/  /_/  /_/  \___/
-                               /_/                                                                                                      
 
-        {color.RED}{version}{color.WHITE}        {color.WHITE}By github.com/AzeemIdrisi
+    dBBBBb   dBP dBBBBBb     dBBBP  dBP dBP dBBBBb dBBBBBb    dBBBBP dBP dBBBBb     dBBBBBb dBBBBBb    dBBBBP
+       dBP            BB           d8P.dBP     dB'     dBP   dBP.BP         dBP         dB'     dBP   dBP.BP 
+   dBBBK'  dBP    dBP BB   dBP    dBBBBP  dBP dB'  dBBBBK   dBP.BP dBP dBP dBP      dBBBP'  dBBBBK   dBP.BP  
+  dB' db  dBP    dBP  BB  dBP    dBP BB  dBP dB'  dBP  BB  dBP.BP dBP dBP dBP      dBP     dBP  BB  dBP.BP   
+ dBBBBP' dBBBBP dBBBBBBB dBBBBP dBP dBP dBBBBB'  dBP  dB' dBBBBP dBP dBBBBBP      dBP     dBP  dB' dBBBBP    
+                                                                                                             
+                       .dBBBBP dBBBBBb dBP dBP dBPdBPdBP dBBBBBb   dBBBBBb    dBBBP                          
+                       BP          dB'    dBP                 BB       dBP                                   
+                       `BBBBb  dBBBP'    dBP dBPdBPdBP    dBP BB   dBBBBK   dBBP                             
+                          dBP dBP       dBP dBPdBPdBP    dBP  BB  dBP  BB  dBP                               
+                     dBBBBP' dBP       dBP dBBBBBBBP    dBBBBBBB dBP  dB' dBBBBP                             
+                                                                                                                                                                                                                                                                                                                                                                         
+                         {color.WHITE}{version}{color.WHITE}          {color.WHITE}Powered by Black Market Ⓡ
 """
 
 banner6 = f"""
-        ____  __                    _____       __      _ __       ____           
-       / __ \/ /_  ____  ____  ___ / ___/____  / /___  (_) /_     / __ \_________ 
-      / /_/ / __ \/ __ \/ __ \/ _ \\\__ \/ __ \/ / __ \/ / __/    / /_/ / ___/ __ \\
-     / ____/ / / / /_/ / / / /  __/__/ / /_/ / / /_/ / / /_     / ____/ /  / /_/ /
-    /_/   /_/ /_/\____/_/ /_/\___/____/ .___/_/\____/_/\__/    /_/   /_/   \____/
-                                     /_/                                                                                                       
-    
-           {color.RED}{version}{color.WHITE}               {color.WHITE}By github.com/AzeemIdrisi
 
+@@@@@@@  @@@       @@@@@@   @@@@@@@ @@@  @@@ @@@@@@@  @@@@@@@   @@@@@@  @@@ @@@@@@@     @@@@@@@  @@@@@@@   @@@@@@  
+@@!  @@@ @@!      @@!  @@@ !@@      @@!  !@@ @@!  @@@ @@!  @@@ @@!  @@@ @@! @@!  @@@    @@!  @@@ @@!  @@@ @@!  @@@ 
+@!@!@!@  @!!      @!@!@!@! !@!      @!@@!@!  @!@  !@! @!@!!@!  @!@  !@! !!@ @!@  !@!    @!@@!@!  @!@!!@!  @!@  !@! 
+!!:  !!! !!:      !!:  !!! :!!      !!: :!!  !!:  !!! !!: :!!  !!:  !!! !!: !!:  !!!    !!:      !!: :!!  !!:  !!! 
+:: : ::  : ::.: :  :   : :  :: :: :  :   ::: :: :  :   :   : :  : :. :  :   :: :  :      :        :   : :  : :. :  
+                                                                                                                   
+                                                                                                                   
+                         @@@@@@ @@@@@@@  @@@ @@@ @@@  @@@  @@@  @@@@@@  @@@@@@@  @@@@@@@@                          
+                        !@@     @@!  @@@ @@! !@@ @@!  @@!  @@! @@!  @@@ @@!  @@@ @@!                               
+                         !@@!!  @!@@!@!   !@!@!  @!!  !!@  @!@ @!@!@!@! @!@!!@!  @!!!:!                            
+                            !:! !!:        !!:    !:  !!:  !!  !!:  !!! !!: :!!  !!:                               
+                        ::.: :   :         .:      ::.:  :::    :   : :  :   : : : :: ::                                                                                
+    
+                         {color.WHITE}{version}{color.WHITE}          {color.WHITE}Powered by Black Market Ⓡ
 """
 
 banner10 = f"""
-     ____    __                              ____            ___               __        ____                        
-    /\  _`\ /\ \                            /\  _`\         /\_ \           __/\ \__    /\  _`\                      
-    \ \ \L\ \ \ \___     ___     ___      __\ \,\L\_\  _____\//\ \     ___ /\_\ \ ,_\   \ \ \L\ \_ __   ___          
-     \ \ ,__/\ \  _ `\  / __`\ /' _ `\  /'__`\/_\__ \ /\ '__`\\\ \ \   / __`\/\ \ \ \/    \ \ ,__/\`'__\/ __`\        
-      \ \ \/  \ \ \ \ \/\ \L\ \/\ \/\ \/\  __/ /\ \L\ \ \ \L\ \\\_\ \_/\ \L\ \ \ \ \ \_    \ \ \/\ \ \//\ \L\ \       
-       \ \_\   \ \_\ \_\ \____/\ \_\ \_\ \____\\\ `\____\ \ ,__//\____\ \____/\ \_\ \__\    \ \_\ \ \_\\\ \____/       
-        \/_/    \/_/\/_/\/___/  \/_/\/_/\/____/ \/_____/\ \ \/ \/____/\/___/  \/_/\/__/     \/_/  \/_/ \/___/      
-                                                         \ \_\                                                       
-                                                          \/_/                                              
 
-            {color.RED}{version}{color.WHITE}                                {color.WHITE}By github.com/AzeemIdrisi
+    dBBBBb   dBP dBBBBBb     dBBBP  dBP dBP dBBBBb dBBBBBb    dBBBBP dBP dBBBBb     dBBBBBb dBBBBBb    dBBBBP
+       dBP            BB           d8P.dBP     dB'     dBP   dBP.BP         dBP         dB'     dBP   dBP.BP 
+   dBBBK'  dBP    dBP BB   dBP    dBBBBP  dBP dB'  dBBBBK   dBP.BP dBP dBP dBP      dBBBP'  dBBBBK   dBP.BP  
+  dB' db  dBP    dBP  BB  dBP    dBP BB  dBP dB'  dBP  BB  dBP.BP dBP dBP dBP      dBP     dBP  BB  dBP.BP   
+ dBBBBP' dBBBBP dBBBBBBB dBBBBP dBP dBP dBBBBB'  dBP  dB' dBBBBP dBP dBBBBBP      dBP     dBP  dB' dBBBBP    
+                                                                                                             
+                       .dBBBBP dBBBBBb dBP dBP dBPdBPdBP dBBBBBb   dBBBBBb    dBBBP                          
+                       BP          dB'    dBP                 BB       dBP                                   
+                       `BBBBb  dBBBP'    dBP dBPdBPdBP    dBP BB   dBBBBK   dBBP                             
+                          dBP dBP       dBP dBPdBPdBP    dBP  BB  dBP  BB  dBP                               
+                     dBBBBP' dBP       dBP dBBBBBBBP    dBBBBBBB dBP  dB' dBBBBP                                                                                                                                                              
 
+                         {color.WHITE}{version}{color.WHITE}          {color.WHITE}Powered by Black Market Ⓡ
 """
 
 banner11 = f"""
-    _____________                   ________       ______     __________       ________              
-    ___  __ \__  /_____________________  ___/__________  /________(_)_  /_      ___  __ \____________ 
-    __  /_/ /_  __ \  __ \_  __ \  _ \____ \___  __ \_  /_  __ \_  /_  __/      __  /_/ /_  ___/  __ \\
-    _  ____/_  / / / /_/ /  / / /  __/___/ /__  /_/ /  / / /_/ /  / / /_        _  ____/_  /   / /_/ /
-    /_/     /_/ /_/\____//_/ /_/\___//____/ _  .___//_/  \____//_/  \__/        /_/     /_/    \____/
-                                            /_/                                                      
 
+@@@@@@@  @@@       @@@@@@   @@@@@@@ @@@  @@@ @@@@@@@  @@@@@@@   @@@@@@  @@@ @@@@@@@     @@@@@@@  @@@@@@@   @@@@@@  
+@@!  @@@ @@!      @@!  @@@ !@@      @@!  !@@ @@!  @@@ @@!  @@@ @@!  @@@ @@! @@!  @@@    @@!  @@@ @@!  @@@ @@!  @@@ 
+@!@!@!@  @!!      @!@!@!@! !@!      @!@@!@!  @!@  !@! @!@!!@!  @!@  !@! !!@ @!@  !@!    @!@@!@!  @!@!!@!  @!@  !@! 
+!!:  !!! !!:      !!:  !!! :!!      !!: :!!  !!:  !!! !!: :!!  !!:  !!! !!: !!:  !!!    !!:      !!: :!!  !!:  !!! 
+:: : ::  : ::.: :  :   : :  :: :: :  :   ::: :: :  :   :   : :  : :. :  :   :: :  :      :        :   : :  : :. :  
+                                                                                                                   
+                                                                                                                   
+                         @@@@@@ @@@@@@@  @@@ @@@ @@@  @@@  @@@  @@@@@@  @@@@@@@  @@@@@@@@                          
+                        !@@     @@!  @@@ @@! !@@ @@!  @@!  @@! @@!  @@@ @@!  @@@ @@!                               
+                         !@@!!  @!@@!@!   !@!@!  @!!  !!@  @!@ @!@!@!@! @!@!!@!  @!!!:!                            
+                            !:! !!:        !!:    !:  !!:  !!  !!:  !!! !!: :!!  !!:                               
+                        ::.: :   :         .:      ::.:  :::    :   : :  :   : : : :: ::                             
 
-            {color.RED}{version}{color.WHITE}                            {color.WHITE}By github.com/AzeemIdrisi
-
+                         {color.WHITE}{version}{color.WHITE}          {color.WHITE}Powered by Black Market Ⓡ
 """
 
 banner12 = f"""
 
-        ▒█▀▀█ █░░█ █▀▀█ █▀▀▄ █▀▀ ▒█▀▀▀█ █▀▀█ █░░ █▀▀█ ░▀░ ▀▀█▀▀ 　 ▒█▀▀█ █▀▀█ █▀▀█ 
-        ▒█▄▄█ █▀▀█ █░░█ █░░█ █▀▀ ░▀▀▀▄▄ █░░█ █░░ █░░█ ▀█▀ ░░█░░ 　 ▒█▄▄█ █▄▄▀ █░░█ 
-        ▒█░░░ ▀░░▀ ▀▀▀▀ ▀░░▀ ▀▀▀ ▒█▄▄▄█ █▀▀▀ ▀▀▀ ▀▀▀▀ ▀▀▀ ░░▀░░ 　 ▒█░░░ ▀░▀▀ ▀▀▀▀   
-
-
-            {color.RED}{version}{color.WHITE}                            {color.WHITE}By github.com/AzeemIdrisi
-
+    dBBBBb   dBP dBBBBBb     dBBBP  dBP dBP dBBBBb dBBBBBb    dBBBBP dBP dBBBBb     dBBBBBb dBBBBBb    dBBBBP
+       dBP            BB           d8P.dBP     dB'     dBP   dBP.BP         dBP         dB'     dBP   dBP.BP 
+   dBBBK'  dBP    dBP BB   dBP    dBBBBP  dBP dB'  dBBBBK   dBP.BP dBP dBP dBP      dBBBP'  dBBBBK   dBP.BP  
+  dB' db  dBP    dBP  BB  dBP    dBP BB  dBP dB'  dBP  BB  dBP.BP dBP dBP dBP      dBP     dBP  BB  dBP.BP   
+ dBBBBP' dBBBBP dBBBBBBB dBBBBP dBP dBP dBBBBB'  dBP  dB' dBBBBP dBP dBBBBBP      dBP     dBP  dB' dBBBBP    
+                                                                                                             
+                       .dBBBBP dBBBBBb dBP dBP dBPdBPdBP dBBBBBb   dBBBBBb    dBBBP                          
+                       BP          dB'    dBP                 BB       dBP                                   
+                       `BBBBb  dBBBP'    dBP dBPdBPdBP    dBP BB   dBBBBK   dBBP                             
+                          dBP dBP       dBP dBPdBPdBP    dBP  BB  dBP  BB  dBP                               
+                     dBBBBP' dBP       dBP dBBBBBBBP    dBBBBBBB dBP  dB' dBBBBP                             
+ 
+                         {color.WHITE}{version}{color.WHITE}          {color.WHITE}Powered by Black Market Ⓡ
 """
 banner_list = [
     banner2,
@@ -191,20 +240,20 @@ banner_list = [
     banner12,
 ]
 
-instructions_banner = f"""{color.CYAN}
+instructions_banner = f"""{color.GREEN}
         ____           __                  __  _                 
        /  _/___  _____/ /________  _______/ /_(_)___  ____  _____
        / // __ \/ ___/ __/ ___/ / / / ___/ __/ / __ \/ __ \/ ___/
      _/ // / / (__  ) /_/ /  / /_/ / /__/ /_/ / /_/ / / / (__  ) 
     /___/_/ /_/____/\__/_/   \__,_/\___/\__/_/\____/_/ /_/____/  
-        {color.WHITE}                                                        
+        {color.GREEN}                                                        
 """
 
 hacking_banner = f"""{color.GREEN}
     
     █░█ ▄▀█ █▀▀ █▄▀ █ █▄░█ █▀▀ ░ ░ ░
     █▀█ █▀█ █▄▄ █░█ █ █░▀█ █▄█ ▄ ▄ ▄
-    {color.WHITE}
+    {color.GREEN}
 """
 
 keycode_menu = f"""
@@ -220,5 +269,7 @@ keycode_menu = f"""
    {color.WHITE}10. {color.GREEN}Delete/Backspace
 """
 """
-Copyright © 2023 Mohd Azeem (github.com/AzeemIdrisi)
+Copyright (C) 2023 Mohd Azeem (github.com/AzeemIdrisi)
+Copyright (C) 2024 NullX47 (github.com/NullX47)
+Copyright © 2024 Black Market
 """
